@@ -1,3 +1,4 @@
+/* Font imports from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
@@ -30,6 +31,7 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+/* Specific styling for h1 and h2, including gradients and transparency */
 h1 {
     font-weight: 200;
     font-size: 6.6rem;
@@ -47,7 +49,8 @@ h2 {
     background-clip: text;
     -webkit-background-clip: text;
 }
-  
+
+/* Specific styling for h3*/
 h3 {
     color: #080034db;
     font-weight: 200;
@@ -71,6 +74,7 @@ header nav ul li {
     text-align: center;
 }
 
+/* Styling for navigation links, including gradients and hover effects */
 header nav ul li a {
     background-image: linear-gradient(
         to right,
@@ -110,6 +114,7 @@ header nav ul li a:hover::before {
     width: 100%;
 }
 
+/* Styling for the section with the id 'about' */
 #about {
     padding: 2.0em;
     margin-top: 2.5em;
@@ -122,6 +127,7 @@ img.profilepic {
     margin-right: 1.5em;
 }
 
+/* Styling for various link states (link, visited, hover) */
 a:link {
     color: #4ccf94;
 }
@@ -134,6 +140,7 @@ a:hover {
     color: #9765f5;
 }
 
+/* Styling for the section with the id 'projects' */
 #projects {
     margin-top: 7.0em;
 }
@@ -156,7 +163,8 @@ img.design {
     margin-right: auto;
     width: 50%;
 }
-  
+
+/* Styling for the section with the id 'hobbies' */
 #hobbies {
     padding: 2.0em;
     margin-top: 6.0em;
@@ -168,6 +176,7 @@ ol {
     color:#2f2f2f;
 }
 
+/* Styling for the section with the id 'favorites' */
 #favorites {
     padding: 2.0em;
     margin-top: 5.0em;
@@ -187,14 +196,16 @@ table, th, td {
     background-color: #fbfffd;
     border: 1.5px solid #6ac89c;
 }
-  
+
+/* Styling for the section with the id 'contact' */
 #contact {
     padding: 2.0em;
     margin-top: 5.0em;
     margin-bottom: 6.0em;
     border: 1px solid #c5c5c5;
 }
-  
+
+/* Styling for the footer */
 footer {
     background-color: #daece4;
     color: #2f2f2f;
@@ -205,6 +216,7 @@ footer {
     width: 100%;
 }
 
+/* Responsive styling for small screens */
 @media only screen and (max-width: 600px) {
     body {
         font-size: 1.2em;
