@@ -4,11 +4,12 @@
 html {
     font-size: 60%;
 }
-  
+
 body {
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 1.8em;
-    line-height: 2.0;
+        line-height: 2.0;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
     padding: 10px;
     text-align: center;
 }
-  
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -48,9 +49,12 @@ h2 {
 }
   
 h3 {
+    color: #080034db;
     font-weight: 200;
     font-size: 2.6rem;
-    color: #499774;
+    background-color: #eeeeff;
+    display: block;
+    text-decoration: none;
 }
 
 header nav ul {
@@ -107,8 +111,9 @@ header nav ul li a:hover::before {
 }
 
 #about {
-    padding: 1.2em;
+    padding: 2.0em;
     margin-top: 2.5em;
+    background-color: #f9f9ffdb;
 }
 
 img.profilepic {
@@ -152,44 +157,56 @@ img.design {
     width: 50%;
 }
   
-  /* Hobbies Section Styles */
 #hobbies {
-    margin-top: 4.0em;
+    padding: 2.0em;
+    margin-top: 6.0em;
+    border: 1px solid #c5c5c5;
 }
   
 ol {
-    list-style-type: none;
+    background-color: #e8faf1;
+    color:#2f2f2f;
 }
-  
-  /* Favorites Section Styles */
+
 #favorites {
-    margin-top: 20px;
+    padding: 2.0em;
+    margin-top: 5.0em;
+    border: 1px solid #c5c5c5;
 }
-  
+
 table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
+    text-align: center;
 }
   
 table, th, td {
-    border: 1px solid #333333;
+    background-color: #fbfffd;
+    border: 1.5px solid #6ac89c;
 }
   
-  /* Contact Section Styles */
 #contact {
-    margin-top: 20px;
+    padding: 2.0em;
+    margin-top: 5.0em;
+    margin-bottom: 6.0em;
+    border: 1px solid #c5c5c5;
 }
   
-  /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+    background-color: #daece4;
+    color: #2f2f2f;
+    height: 50px;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
-  
-  
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1.2em;
+    }
+}
