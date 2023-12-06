@@ -17,4 +17,13 @@ hoverButton.onmouseleave = () => {
     hoverButton.innerText = 'Hover me!';
 };
 
+// Incrementing Button
+let count = 1;
+const counterButton = document.getElementById('btn-counter');
+const counterText = document.getElementById('txt-counter');
+
+counterButton.onclick = () => {
+    count = count + 1;
+    counterText.innerHTML = `Number: ${count}`;
+};
 
