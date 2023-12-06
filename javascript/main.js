@@ -35,3 +35,14 @@ counterButton.onclick = () => {
         counterText.classList.add('odd');
     }
 };
+
+// for Loops
+const numbersList = document.getElementById('numbers');
+const initialValue = 1;
+const stopValue = 100;
+
+for (let i = initialValue; i <= stopValue; i++) {
+    const listItem = document.createElement('li');
+    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
+    numbersList.appendChild(listItem);
+}

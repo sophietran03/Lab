@@ -24,9 +24,15 @@
     <main>
         <article>
             <h2>Welcome to my webpage!</h2> 
+            
+            <!-- Alert Button -->
             <button id="btn-alert">Hover Me!</button><br>
+            <!-- Incrementing Button -->
             <button id="btn-counter">Click me to increase the number below! (Green: Even, Pink: Odd)</button>
-            <p id="txt-counter" class="odd" >Number: 1</p>       
+            <p id="txt-counter" class="odd" >Number: 1</p> 
+            <!-- <ol> element for the for loop -->
+            <ol id="numbers"></ol>
+
             <!-- About Me Section -->
             <section id="about">
                 <h3>ABOUT ME</h3>
@@ -111,10 +117,7 @@
         <!-- Copyright Notice -->
         &copy; Sophie Tran, <span id="copyrightYear"></span>
     </footer>
-    <script>
-        // alert("Hello World"); //
-    </script>
-    <script src="javascript/main.js"></script>
-    <!--Include the javascript file-->
+    <!-- Defer script to ensure safe DOM interaction after HTML parsing -->
+    <script defer src="javascript/main.js"></script>
 </body>
 </html>
